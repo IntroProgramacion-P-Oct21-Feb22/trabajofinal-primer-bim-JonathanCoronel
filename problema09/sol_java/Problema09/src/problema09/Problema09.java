@@ -32,7 +32,7 @@ public class Problema09 {
         numero1=numero1 + 12;
         numero2=numero2 + 11;
         contador = contador +1;
-        presentacion = String.format("%s+%d-%d"
+        presentacion = String.format("%s+%d-%d "
                 ,presentacion, numero1, numero2);
         }
         System.out.printf("%s\n",presentacion);
